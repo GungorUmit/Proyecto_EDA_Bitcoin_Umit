@@ -1,25 +1,20 @@
-# Exploratory Data Analysis - Celiac Disease
+# Exploratory Data Analysis - Bitcoin
 
-Este proyecto realiza un Análisis Exploratorio de Datos (EDA) sobre un dataset clínico relacionado con la **enfermedad celíaca**.  
+Este proyecto realiza un Análisis Exploratorio de Datos (EDA) sobre un dataset Bitcoin.
 
-La enfermedad celíaca es una enfermedad autoinmune grave que ocurre en personas genéticamente predispuestas donde la ingestión de gluten provoca daños en el intestino delgado. Se estima que afecta a 1 de cada 100 personas en todo el mundo, pero solo alrededor del 30% se diagnostica correctamente.
 
-El objetivo es explorar patrones de síntomas, niveles de anticuerpos y diagnóstico según tipo de celiaquía.
+El objetivo es explorar los datos de Bitcoin.
 
 ## Dataset
-Este conjunto de datos se tomó originalmente del Departamento de Biotecnología de la Universidad de Wageningen y Investigación de Alimentos en los Países Bajos. El dataset está disponible públicamente en [Kaggle](https://www.kaggle.com/datasets/andrewmvd/celiac-disease-patients).
-
-Consisten en varias variables médicas como: edad, género, tipo de diabetes, sintomas(diarrea, hinchazon abdominal, heces pegajosas), tipo de estatura, perdida de peso, niveles de anticuerpos, tipo de lesiones intestinales, tipo de celiaquia y una variable objetivo que indica si el paciente es celíaco o no.
+Este conjunto de datos se tomó originalmente de Kaggle. El dataset está disponible públicamente en [Kaggle]([https://www.kaggle.com/datasets/geishapatricia/bitcoin-price-untill-06172025]).
 
 ## Análisis Exploratorio de Datos (EDA)
 El análisis incluye:
-- Limpieza y preprocesamiento de datos
 - Análisis estadístico descriptivo
 - Visualización de distribuciones y correlaciones
-- Identificación de patrones y tendencias
-- Comparación entre diferentes tipos de celiaquía
-- Análisis de síntomas más comunes y su relación con el diagnóstico
-- Evaluación de niveles de anticuerpos en diferentes grupos de pacientes
+- Identificación de volumenes
+- Comparación entre diferentes tipos de datos
+
 
 ## Herramientas Utilizadas
 - Python
@@ -58,9 +53,3 @@ source env/bin/activate  # En Windows usa `env\Scripts\activate`
 5. Cargar el dataset y ejecutar las celdas del notebook para realizar el análisis.
 
 
-
-# Notas
-
-- El dataset original está en data/raw/..
-- El dataset limpio se guarda en data/processed/.. después de la limpieza
-- Se recomienda no sobrescribir los datos crudos.
