@@ -6,7 +6,7 @@ Este proyecto realiza un Análisis Exploratorio de Datos (EDA) sobre un dataset 
 El objetivo es explorar los datos de Bitcoin.
 
 ## Dataset
-Este conjunto de datos se tomó originalmente de Kaggle. El dataset está disponible públicamente en [Kaggle]([https://www.kaggle.com/datasets/geishapatricia/bitcoin-price-untill-06172025]).
+Este conjunto de datos se tomó originalmente de Kaggle. El dataset está disponible públicamente en [Kaggle][https://www.kaggle.com/datasets/geishapatricia/bitcoin-price-untill-06172025].
 
 ## Análisis Exploratorio de Datos (EDA)
 El análisis incluye:
